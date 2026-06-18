@@ -62,7 +62,6 @@
 ```bash
 # 1. Клонируй репозиторий
 git clone https://github.com/CerCraft/AP.git
-cd aurapage
 
 # 2. Запусти стартовый скрипт
 start.bat
