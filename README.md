@@ -12,7 +12,7 @@
 [![Deploy](https://img.shields.io/badge/deploy-Firebase-3b82f6?style=flat-square)]()
 [![Status](https://img.shields.io/badge/status-stable-22c55e?style=flat-square)]()
 
-[Быстрый старт](#быстрый-старт) · [Документация](https://yourname.github.io/aurapage/) 
+[Быстрый старт](#быстрый-старт) · [Документация](https://cercraft.github.io/AP-Doc/) 
 
 </div>
 
