@@ -34,22 +34,6 @@
 
 ---
 
-## Скриншоты
-
-<div align="center">
-<table>
-<tr>
-<td><img src="docs/screenshots/preloader.png" alt="Прелоадер" width="300"/></td>
-<td><img src="docs/screenshots/profile.png" alt="Профиль" width="300"/></td>
-</tr>
-<tr>
-<td><img src="docs/screenshots/panel.png" alt="Панель" width="300"/></td>
-<td><img src="docs/screenshots/player.png" alt="Плеер" width="300"/></td>
-</tr>
-</table>
-</div>
-
----
 
 ## Технологии
 
