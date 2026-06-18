@@ -53,7 +53,7 @@
 
 ### Требования
 
-- **Windows 10/11** (батники) или cross-platform через `node` напрямую
+- **Windows 10/11** 
 - **Node.js** >= 16 ([скачать](https://nodejs.org))
 - **Git** (опционально)
 
