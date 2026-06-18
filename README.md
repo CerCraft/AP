@@ -1,7 +1,6 @@
 <div align="center">
 
-<!-- Логотип / Бейджи -->
-<img src="docs/logo.svg" alt="AuraPage" width="80"/>
+
 
 # AuraPage
 
