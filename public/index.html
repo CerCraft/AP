@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profile</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<!-- Прелоадер -->
+<div class="preloader" id="preloader">
+    <div class="preloader-content">
+        <div class="preloader-icon"><i class="fas fa-play"></i></div>
+        <h1 class="preloader-title">Нажми чтобы войти</h1>
+      
+    </div>
+</div>
+
+<video id="bgVideo" autoplay muted loop playsinline></video>
+<div class="overlay"></div>
+
+<div class="container" id="mainContent" style="opacity:0;">
+    <div class="profile-card">
+        <div class="avatar-wrap">
+            <img id="avatar" src="" alt="avatar">
+        </div>
+        <h1 id="name"></h1>
+        <p id="tagline" class="tagline"></p>
+        <p id="bio" class="bio"></p>
+        <div id="links" class="links"></div>
+    </div>
+</div>
+
+<!-- Новый плеер -->
+<div class="player" id="player">
+    <div class="player-top">
+        <div class="player-controls">
+            <button id="prevBtn" title="Предыдущий"><i class="fas fa-backward-step"></i></button>
+            <button id="playBtn" class="play-main" title="Пауза"><i class="fas fa-play"></i></button>
+            <button id="nextBtn" title="Следующий"><i class="fas fa-forward-step"></i></button>
+        </div>
+        <div class="player-info">
+            <div class="track-title" id="trackName">Нет треков</div>
+            <div class="track-artist" id="trackArtist"></div>
+        </div>
+        <div class="volume-wrap">
+            <i class="fas fa-volume-high" id="volIcon"></i>
+            <input type="range" id="volume" min="0" max="100" value="70" class="volume-slider">
+        </div>
+    </div>
+    <div class="progress-wrap" id="progressWrap">
+        <div class="progress" id="progress"></div>
+    </div>
+    <audio id="audio"></audio>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
